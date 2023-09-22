@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h1>Welcome to WAR-MARKET!</h1>
+        <ul>
+            <li onclick="comprar(pocion)" class="item">BOMBA</li>
+            <li onclick="comprar(espada)" class="item">ESPADA</li>
+            <li onclick="comprar(escudo)" class="item">ESCUDO</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Mi inventario</h2>
+        <ul id="inventario">
+            <!-- Acá vamos a cargar los items del array inventario dinamicamente con el DOM -->
+        </ul>
+        <div class="oroCompleto"><img src="img/lingotes-de-oro.png" alt="Lingotes de Oro" class="lingoteOro"><h2 id="oro">ORO: <span> </span></h2></div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
